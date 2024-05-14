@@ -105,3 +105,7 @@ This analysis will help the marketing strategy to target the drivers based on th
 ## 5. Target marketing for better outcomes - 
 
 Establish a feedback mechanism to gather insights from drivers who accept or reject coupons, enabling continuous improvement in coupon offerings. Regularly monitor coupon acceptance rates and adjust strategies accordingly. Evaluate the return on investment (ROI) for coupon campaigns to ensure cost-effectiveness.
+
+
+## 6. Analysis conclusion -
+Will the Customer Accept the Coupon? Based on the sample dataset the majority of drivers accepted the coupon. So answer to this question is "Yes".
