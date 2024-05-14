@@ -73,6 +73,7 @@ Coupon acceptance rate by category:
 77% Bar coupons used by the Drivers for more than 3 times a month.
 72% Bar coupons used by the drivers under age of 30 for more than once a month.
 
+
 ## 3. Carry out & Take away analysis - 
 
 #### 1. What proportion of Carry-out & Take-away coupons were accepted?
@@ -85,3 +86,22 @@ Coupon acceptance rate with partner is higher than any other passengers - 58.1%
 
 <img src="visuals/fig_pie_carry_passanger.png" alt="Coupon acceptance by passenger" width="80%">
 
+
+## 4. Analysis on the coupon not accepted - 
+
+This analysis will help the marketing strategy to target the drivers based on the contextual attributes listed below.
+
+#### 1. 63.3% of drivers traveling alone not accepted any coupons. Below is the visualization by passanger. 
+<img src="visuals/coupon_not_acceptance_passanger.png" alt="Coupon not accepted by passenger" width="80%">
+
+#### 2. Temperature also plays important role of coupons not accepted by the drivers. 
+47.7% of coupons not accepted when the temperature is max of 80. 
+<img src="visuals/coupon_not_acceptance_temperature.png" alt="Coupon not accepted by temperature" width="80%">
+
+#### 3. 42.6% of coupons not accepted when the drivers are traveling with married partners. 
+<img src="visuals/coupon_not_acceptance_marital.png" alt="Coupon not accepted by marital" width="80%">
+
+
+## 5. Target marketing for better outcomes - 
+
+Establish a feedback mechanism to gather insights from drivers who accept or reject coupons, enabling continuous improvement in coupon offerings. Regularly monitor coupon acceptance rates and adjust strategies accordingly. Evaluate the return on investment (ROI) for coupon campaigns to ensure cost-effectiveness.
