@@ -35,6 +35,7 @@ Below is the structure of the dataset:
 <img width="391" alt="Screen Shot 2024-07-02 at 10 47 21 AM" src="https://github.com/rajeshvr79/UCB-MLAI/assets/145634280/77634603-ff12-40d7-95c4-d2f9a8c2b992">
 
 
+
 **Data Preparation**
 
 After our initial exploration and fine tuning of the business understanding, it is time to construct our final dataset prior to modeling. Here, we want to make sure to handle any integrity issues and cleaning, the engineering of new features, any transformations that we believe should happen (scaling, logarithms, normalization, etc.), and general preparation for modeling with sklearn.
