@@ -57,6 +57,6 @@ After our initial exploration and fine tuning of the business understanding, it 
 
 Different machine learning algorithms are used to predict price of the car.
 
-# Linear Regression
-# Ridge Regression
-# Lasso Regression
+1. # Linear Regression
+2. # Ridge Regression
+3. # Lasso Regression
