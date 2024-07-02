@@ -1,6 +1,7 @@
 What drives the price of a car?
+<img width="793" alt="Screen Shot 2024-07-02 at 9 50 27 AM" src="https://github.com/rajeshvr79/UCB-MLAI/assets/145634280/29ad2294-8e76-4d4c-9dab-6417b6a9fe22">
 
-Image
+
 OVERVIEW
 
 In this application, you will explore a dataset from kaggle. The original dataset contained information on 3 million used cars. The provided dataset contains information on 426K cars to ensure speed of processing. Your goal is to understand what factors make a car more or less expensive. As a result of your analysis, you should provide clear recommendations to your client -- a used car dealership -- as to what consumers value in a used car.
