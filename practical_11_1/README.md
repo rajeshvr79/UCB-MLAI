@@ -50,3 +50,6 @@ After our initial exploration and fine tuning of the business understanding, it 
 - Identified the categorical columns - cat_cols=['state','region','manufacturer','model','condition','cylinders','fuel','title_status','transmission','drive','size','type','paint_color'] and used sklearn library LabelEncoder to replace the categorical columns into numerical values.
 - The dataset is not normally distributed. All the features have different ranges. Without normalization, the ML model will try to disregard coefficients of features that have low values because their impact will be so small compared to the big value. Hence to normalized, sklearn library i.e. MinMaxScaler is used.
 - 90% of the data was split for the train data and 10% of the data was taken as test data.
+
+
+### Modeling
