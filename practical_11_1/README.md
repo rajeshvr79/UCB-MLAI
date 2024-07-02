@@ -31,6 +31,7 @@ In such a situation, the modeling, evaluation, and deployment phases might be le
 After considering the business understanding, we want to get familiar with our data. Writing down the steps that are required to get to know the dataset and identify any quality issues within. This dataset car price consists of 17 columns with numerical/categorical columns and toal 426880 records. VIN is the unique identifier of the car which is good to have in the dataset. The rest of features like year, make, odometer about the car will decide the driving factors for the Modeling.
 
 Below is the structure of the dataset:
+
 <img width="391" alt="Screen Shot 2024-07-02 at 10 47 21 AM" src="https://github.com/rajeshvr79/UCB-MLAI/assets/145634280/77634603-ff12-40d7-95c4-d2f9a8c2b992">
 
 
