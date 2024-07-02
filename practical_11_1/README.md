@@ -38,9 +38,15 @@ Below is the structure of the dataset:
 
 
 
+
 **Data Preparation**
 
 After our initial exploration and fine tuning of the business understanding, it is time to construct our final dataset prior to modeling. Here, we want to make sure to handle any integrity issues and cleaning, the engineering of new features, any transformations that we believe should happen (scaling, logarithms, normalization, etc.), and general preparation for modeling with sklearn.
 
 - The dataset had duplicates of VIN. So we need to keep the latest record per VIN by dropping the duplicates. 
 - There are also missing values of main columns like VIN, year, odometer, manufacturer, model. The missing values were replaced by using IterativeImputer with BayesianRidge estimator.
+- InterQuartile Range (IQR) method is used to remove the outliers from the data
+- After the above steps, the dataset has records of 241,827 used car information.
+- Identified the categorical columns - cat_cols=['state','region','manufacturer','model','condition','cylinders','fuel','title_status','transmission','drive','size','type','paint_color'] and used sklearn library LabelEncoder to replace the categorical columns into numerical values.
+- The dataset is not normally distributed. All the features have different ranges. Without normalization, the ML model will try to disregard coefficients of features that have low values because their impact will be so small compared to the big value. Hence to normalized, sklearn library i.e. MinMaxScaler is used.
+- 90% of the data was split for the train data and 10% of the data was taken as test data.
