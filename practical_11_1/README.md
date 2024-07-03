@@ -60,11 +60,13 @@ Different machine learning algorithms are used to predict price of the car.
 1. Linear Regression
 2. Ridge Regression
 3. Lasso Regression
-4. 
+4. Grid search
 
+
+### Evaluation
 
 ### Conclusion
 Our goal is to predict the price of the used cars having 16 predictors and 426880 records.
 After, data cleaning the ML models are implemented to predict the price of cars.
 Next, with the help of data visualization the relation between the features are examined.
-From the below table, it can be concluded that  is the best model for the prediction for used car prices. 
+It can be concluded that  is the best model for the prediction for used car prices. 
