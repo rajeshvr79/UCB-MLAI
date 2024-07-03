@@ -68,5 +68,6 @@ Our goal is to predict the price of the used cars having 16 predictors and 42688
 After, data cleaning the ML models are implemented to predict the price of cars.
 Next, with the help of data visualization the relation between the features are examined.
 It can be concluded that Lasso is the best model for the prediction for used car prices. 
+![Linear-Regression-Feature-Importance](https://github.com/rajeshvr79/UCB-MLAI/assets/145634280/ac56a6b2-c18e-4d06-99a8-1f4b9d0ed0f1)
 
-<img src="visuals/coupon_acceptance_category.png" alt="Coupon acceptance by category" width="80%">
+
