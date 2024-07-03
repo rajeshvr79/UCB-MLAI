@@ -34,9 +34,26 @@ Below is the structure of the dataset:
 
 <img width="391" alt="Screen Shot 2024-07-02 at 10 47 21 AM" src="https://github.com/rajeshvr79/UCB-MLAI/assets/145634280/77634603-ff12-40d7-95c4-d2f9a8c2b992">
 
+Number of cars by Fuel and Size of the car
+<img src="images/26_size_fuel_no_of_cars.png" alt="26_size_fuel_no_of_cars.png" width="80%">
 
+Bar plot that explains the price of the car by Manufacturer and Type
+<img src="images/24_manuf_type_price.png" alt="24_manuf_type_price.png" width="80%">
 
+Bar plot of price of the car by Fuel
+<img src="images/17_bar_fuel_price.png" alt="17_bar_fuel_price.png" width="80%">
 
+Transformed histogram and normal probability plot
+<img src="images/16_hist_log_price.png" alt="16_hist_log_price.png" width="80%">
+
+Box plot of price
+<img src="images/11_box_plot_price.png" alt="11_box_plot_price.png" width="80%">
+
+Record distribution over the year
+<img src="images/7_dist_over_year.png" alt="7_dist_over_year.png" width="80%">
+
+Correlation between Price and Luxury car manufacturers
+<img src="images/4_box_plot_manu_price.png" alt="4_box_plot_manu_price.png" width="80%">
 
 
 ### Data Preparation
