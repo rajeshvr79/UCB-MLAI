@@ -78,6 +78,8 @@ The project is organized into the following sections:
     - Implement a baseline model using `DummyClassifier` with the strategy `"most_frequent"`.
     - Evaluate the baseline model using various metrics like accuracy, precision, recall, and F1 score.
 
+      ![Data Exploration](visuals/baseline.png)
+
 4. **Modeling**:
     - Train and evaluate multiple classifiers:
         - k-Nearest Neighbors (kNN)
