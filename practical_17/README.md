@@ -54,6 +54,17 @@ The project is organized into the following sections:
 
   ![Data Exploration](visuals/6.png)
   
+  ![Data Exploration](visuals/1.png)
+  
+  ![Data Exploration](visuals/2.png)
+  
+  ![Data Exploration](visuals/3.png)
+  
+  ![Data Exploration](visuals/4.png)
+  
+  ![Data Exploration](visuals/5.png)
+  
+  
 - Identify and handle any missing values.
 		      No missing values
 - Encode categorical variables.
