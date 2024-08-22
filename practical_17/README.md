@@ -40,6 +40,9 @@ The project is organized into the following sections:
 
   **Output variable (desired target):**
   17 - y - has the client subscribed a term deposit? (binary: "yes","no")
+
+  ![Data Exploration](visuals/1_hist_plot.png)
+  
 - Identify and handle any missing values.
 		      No missing values
 - Encode categorical variables.
