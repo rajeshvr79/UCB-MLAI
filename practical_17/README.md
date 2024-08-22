@@ -94,11 +94,19 @@ The project is organized into the following sections:
         - Support Vector Machines (SVM)
     - Compare models based on their performance.
 
+       ![Data Exploration](visuals/all_models.png)
+  
+       ![Data Exploration](visuals/10.png)
+
 6. **Model Visualization**:
     - Visualize decision boundaries for models using 2D projections.
+       ![Data Exploration](visuals/7.png)
     - Plot confusion matrices for each model.
+       ![Data Exploration](visuals/8.png)
     - Visualize ROC curves to compare the models' performance.
+       ![Data Exploration](visuals/11.png)
     - Plot feature importance for models that support it.
+       ![Data Exploration](visuals/12.png)
 
 7. **Findings**:
     - Summarize the key findings from the analysis and modeling.
@@ -106,6 +114,7 @@ The project is organized into the following sections:
 
 8. **Next Steps**:
     - Suggestions for further improvements, including testing additional models, hyperparameter tuning, and more detailed feature engineering.
+      ![Data Exploration](visuals/knn_hyper.png)
 
 ## Installation and Usage
 
