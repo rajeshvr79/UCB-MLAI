@@ -14,18 +14,18 @@ The project is organized into the following sections:
 
 1. **Data Loading and Exploration**:
     - Load the dataset and explore its structure and contents.
-      Input variables:
-   **Bank client data:
-   age (numeric)
+   <ins>Input variables:</ins>
+   **Bank client data:**
+   age (numeric) <br />
    job : type of job (categorical: "admin.","unknown","unemployed","management","housemaid","entrepreneur","student",
-                                       "blue-collar","self-employed","retired","technician","services") 
-   marital : marital status (categorical: "married","divorced","single"; note: "divorced" means divorced or widowed)
-   education (categorical: "unknown","secondary","primary","tertiary")
-   default: has credit in default? (binary: "yes","no")
-   balance: average yearly balance, in euros (numeric) 
-   housing: has housing loan? (binary: "yes","no")
-   loan: has personal loan? (binary: "yes","no")
-   # Last contact of the current campaign:
+                                       "blue-collar","self-employed","retired","technician","services") <br />
+   marital : marital status (categorical: "married","divorced","single"; note: "divorced" means divorced or widowed) <br />
+   education (categorical: "unknown","secondary","primary","tertiary") <br />
+   default: has credit in default? (binary: "yes","no") <br />
+   balance: average yearly balance, in euros (numeric) <br />
+   housing: has housing loan? (binary: "yes","no") <br />
+   loan: has personal loan? (binary: "yes","no") <br />
+   # Last contact of the current campaign: 
    contact: contact communication type (categorical: "unknown","telephone","cellular") 
   day: last contact day of the month (numeric)
   month: last contact month of year (categorical: "jan", "feb", "mar", ..., "nov", "dec")
