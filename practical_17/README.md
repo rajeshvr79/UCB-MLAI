@@ -80,7 +80,13 @@ The project is organized into the following sections:
 
       ![Data Exploration](visuals/baseline.png)
 
-4. **Modeling**:
+4. **Simple Model**:
+    - Implement a simple model using Linear Regression
+    - Evaluate the simple model using various metrics like accuracy, precision, recall, and F1 score.
+
+      ![Data Exploration](visuals/linear.png)
+
+5. **Modeling**:
     - Train and evaluate multiple classifiers:
         - k-Nearest Neighbors (kNN)
         - Decision Trees
@@ -88,17 +94,17 @@ The project is organized into the following sections:
         - Support Vector Machines (SVM)
     - Compare models based on their performance.
 
-5. **Model Visualization**:
+6. **Model Visualization**:
     - Visualize decision boundaries for models using 2D projections.
     - Plot confusion matrices for each model.
     - Visualize ROC curves to compare the models' performance.
     - Plot feature importance for models that support it.
 
-6. **Findings**:
+7. **Findings**:
     - Summarize the key findings from the analysis and modeling.
     - Provide actionable insights and recommendations for stakeholders.
 
-7. **Next Steps**:
+8. **Next Steps**:
     - Suggestions for further improvements, including testing additional models, hyperparameter tuning, and more detailed feature engineering.
 
 ## Installation and Usage
