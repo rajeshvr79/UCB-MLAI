@@ -1,4 +1,4 @@
-# Bank Marketing Machine Learning Project
+# Bank Marketing Campaigns research using Machine Learning
 
 This project involves building and evaluating machine learning models using the Bank Marketing dataset. The goal is to predict whether a client will subscribe to a term deposit based on a variety of features.
 
