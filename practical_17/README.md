@@ -111,9 +111,13 @@ The project is organized into the following sections:
        ![Data Exploration](visuals/12.png)
 
 7. **Findings**:
+   
 Baseline Model Evaluation:
+
 The baseline model, using a DummyClassifier with the "most_frequent" strategy, was implemented to set a minimum benchmark. As expected, the model yielded high accuracy due to the imbalanced nature of the dataset (where the majority class dominates), but it performed poorly on metrics that consider the minority class (like precision, recall, and F1 score). This underscores the importance of evaluating more sophisticated models that can handle class imbalance more effectively.
+
 Feature Engineering and Dimensionality Reduction:
+
 Categorical variables were successfully encoded, transforming the data into a suitable format for model training. Additionally, Principal Component Analysis (PCA) was applied to reduce the dataset to two dimensions, primarily for visualization purposes. While PCA is valuable for understanding the dataset's structure and visualizing decision boundaries, the reduced dimensions may lose some information, impacting model interpretability when applied beyond visualization.
 Model Performance Comparison:
 Four classifiers—k-Nearest Neighbors (kNN), Decision Trees, Logistic Regression, and Support Vector Machines (SVM)—were trained and evaluated. The performance metrics revealed that:
