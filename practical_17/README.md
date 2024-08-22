@@ -17,6 +17,7 @@ The project is organized into the following sections:
     - Load the dataset and explore its structure and contents.
       
   	Client Information:
+   
 		age: Age of the client
 		job: Job type (categorical)
 		marital: Marital status (categorical)
@@ -24,12 +25,16 @@ The project is organized into the following sections:
 		default: Has credit in default? (categorical)
 		housing: Has housing loan? (categorical)
 		loan: Has personal loan? (categorical)
-	Contact:
+	
+ 	Contact:
+
 		contact: Communication type (categorical)
 		month: Last contact month (categorical)
 		day_of_week: Last contact day of the week (categorical)
 		duration: Last contact duration in seconds (numeric)
-	Campaign Information:
+	
+ 	Campaign Information:
+
 		campaign: Number of contacts performed during this campaign (numeric)
 		pdays: Number of days since the client was last contacted (numeric)
 		previous: Number of contacts before this campaign (numeric)
