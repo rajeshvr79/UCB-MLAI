@@ -52,7 +52,7 @@ The project is organized into the following sections:
 
 		y: Subscription to a term deposit (binary: 'yes' or 'no')
 
-  ![Data Exploration](visuals/1_hist_plot.png)
+  ![Data Exploration](visuals/6.png)
   
 - Identify and handle any missing values.
 		      No missing values
