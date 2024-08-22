@@ -18,7 +18,7 @@ The project is organized into the following sections:
       
   		Client Information:
    
-		age: Age of the client
+		age: Age of the client<br/>
 		job: Job type (categorical)
 		marital: Marital status (categorical)
 		education: Education level (categorical)
