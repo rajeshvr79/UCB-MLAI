@@ -14,6 +14,7 @@ The project is organized into the following sections:
 
 1. **Data Loading and Exploration**:
     - Load the dataset and explore its structure and contents.
+      
   Input variables:
    # bank client data:
    1 - age (numeric)
