@@ -1,4 +1,4 @@
-# Bank Marketing Campaigns research using Machine Learning
+# Bank Marketing Campaigns research
 
 This project involves building and evaluating machine learning models using the Bank Marketing dataset. The goal is to predict whether a client will subscribe to a term deposit based on a variety of features.
 
@@ -14,31 +14,30 @@ The project is organized into the following sections:
 
 1. **Data Loading and Exploration**:
     - Load the dataset and explore its structure and contents.
-      Data columns (total 21 columns):
- #   Column          Non-Null Count  Dtype  
----  ------          --------------  -----  
- 0   age             41188 non-null  int64  
- 1   job             41188 non-null  object 
- 2   marital         41188 non-null  object 
- 3   education       41188 non-null  object 
- 4   default         41188 non-null  object 
- 5   housing         41188 non-null  object 
- 6   loan            41188 non-null  object 
- 7   contact         41188 non-null  object 
- 8   month           41188 non-null  object 
- 9   day_of_week     41188 non-null  object 
- 10  duration        41188 non-null  int64  
- 11  campaign        41188 non-null  int64  
- 12  pdays           41188 non-null  int64  
- 13  previous        41188 non-null  int64  
- 14  poutcome        41188 non-null  object 
- 15  emp.var.rate    41188 non-null  float64
- 16  cons.price.idx  41188 non-null  float64
- 17  cons.conf.idx   41188 non-null  float64
- 18  euribor3m       41188 non-null  float64
- 19  nr.employed     41188 non-null  float64
- 20  y               41188 non-null  object 
-dtypes: float64(5), int64(5), object(11)
+      Input variables:
+   # bank client data:
+   1 - age (numeric)
+   2 - job : type of job (categorical: "admin.","unknown","unemployed","management","housemaid","entrepreneur","student",
+                                       "blue-collar","self-employed","retired","technician","services") 
+   3 - marital : marital status (categorical: "married","divorced","single"; note: "divorced" means divorced or widowed)
+   4 - education (categorical: "unknown","secondary","primary","tertiary")
+   5 - default: has credit in default? (binary: "yes","no")
+   6 - balance: average yearly balance, in euros (numeric) 
+   7 - housing: has housing loan? (binary: "yes","no")
+   8 - loan: has personal loan? (binary: "yes","no")
+   # related with the last contact of the current campaign:
+   9 - contact: contact communication type (categorical: "unknown","telephone","cellular") 
+  10 - day: last contact day of the month (numeric)
+  11 - month: last contact month of year (categorical: "jan", "feb", "mar", ..., "nov", "dec")
+  12 - duration: last contact duration, in seconds (numeric)
+   # other attributes:
+  13 - campaign: number of contacts performed during this campaign and for this client (numeric, includes last contact)
+  14 - pdays: number of days that passed by after the client was last contacted from a previous campaign (numeric, -1 means client was not previously contacted)
+  15 - previous: number of contacts performed before this campaign and for this client (numeric)
+  16 - poutcome: outcome of the previous marketing campaign (categorical: "unknown","other","failure","success")
+
+  Output variable (desired target):
+  17 - y - has the client subscribed a term deposit? (binary: "yes","no")
     - Identify and handle any missing values.
       No missing values
     - Encode categorical variables.
