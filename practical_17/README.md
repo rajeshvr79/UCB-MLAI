@@ -16,15 +16,15 @@ The project is organized into the following sections:
 1. **Data Loading and Exploration**:
     - Load the dataset and explore its structure and contents.
       
-  Client Data:
+  	Client Data:
 
-age: Age of the client
-job: Job type (categorical)
-marital: Marital status (categorical)
-education: Education level (categorical)
-default: Has credit in default? (categorical)
-housing: Has housing loan? (categorical)
-loan: Has personal loan? (categorical)
+		age: Age of the client
+		job: Job type (categorical)
+		marital: Marital status (categorical)
+		education: Education level (categorical)
+		default: Has credit in default? (categorical)
+		housing: Has housing loan? (categorical)
+		loan: Has personal loan? (categorical)
 Contact Data:
 
 contact: Communication type (categorical)
