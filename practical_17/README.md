@@ -19,38 +19,38 @@ The project is organized into the following sections:
   		Client Information:
    
 		age: Age of the client<br/>
-		job: Job type (categorical)
-		marital: Marital status (categorical)
-		education: Education level (categorical)
-		default: Has credit in default? (categorical)
-		housing: Has housing loan? (categorical)
-		loan: Has personal loan? (categorical)
+		job: Job type (categorical)<br/>
+		marital: Marital status (categorical)<br/>
+		education: Education level (categorical)<br/>
+		default: Has credit in default? (categorical)<br/>
+		housing: Has housing loan? (categorical)<br/>
+		loan: Has personal loan? (categorical)<br/>
 	
  		Contact:
 
-		contact: Communication type (categorical)
-		month: Last contact month (categorical)
-		day_of_week: Last contact day of the week (categorical)
-		duration: Last contact duration in seconds (numeric)
+		contact: Communication type (categorical)<br/>
+		month: Last contact month (categorical)<br/>
+		day_of_week: Last contact day of the week (categorical)<br/>
+		duration: Last contact duration in seconds (numeric)<br/>
 	
  		Campaign Information:
 
-		campaign: Number of contacts performed during this campaign (numeric)
-		pdays: Number of days since the client was last contacted (numeric)
-		previous: Number of contacts before this campaign (numeric)
-		poutcome: Outcome of the previous campaign (categorical)
+		campaign: Number of contacts performed during this campaign (numeric)<br/>
+		pdays: Number of days since the client was last contacted (numeric)<br/>
+		previous: Number of contacts before this campaign (numeric)<br/>
+		poutcome: Outcome of the previous campaign (categorical)<br/>
 
 		Other variables:
 
-		emp.var.rate: Employment variation rate (numeric)
-		cons.price.idx: Consumer price index (numeric)
-		cons.conf.idx: Consumer confidence index (numeric)
-		euribor3m: Euribor 3 month rate (numeric)
-		nr.employed: Number of employees (numeric)
+		emp.var.rate: Employment variation rate (numeric)<br/>
+		cons.price.idx: Consumer price index (numeric)<br/>
+		cons.conf.idx: Consumer confidence index (numeric)<br/>
+		euribor3m: Euribor 3 month rate (numeric)<br/>
+		nr.employed: Number of employees (numeric)<br/>
 
 		Target Variable:
 
-		y: Subscription to a term deposit (binary: 'yes' or 'no')
+		y: Subscription to a term deposit (binary: 'yes' or 'no')<br/>
 
   ![Data Exploration](visuals/6.png)
   
