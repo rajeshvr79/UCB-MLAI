@@ -66,9 +66,9 @@ The project is organized into the following sections:
   
   
 - Identify and handle any missing values.
-		      No missing values
+- 	No missing values
 - Encode categorical variables.
-		      Categorical columns were encoded using Preprocessing Labelencoder.
+- 	Categorical columns were encoded using Preprocessing Labelencoder.
 
 2. **Feature Engineering**:
     - Transform and select features for model training.
