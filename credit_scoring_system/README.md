@@ -168,9 +168,9 @@ Classification Report for Logistic Regression:
            0       0.79      0.85      0.82       202
            1       0.85      0.79      0.82       218
 
-    accuracy                           0.82       420
-   macro avg       0.82      0.82      0.82       420
-weighted avg       0.82      0.82      0.82       420
+    accuracy                            0.82       420
+    macro avg       0.82      0.82      0.82       420
+    weighted avg    0.82      0.82      0.82       420
 
 Classification Report for Decision Tree:
               precision    recall  f1-score   support
@@ -179,8 +179,8 @@ Classification Report for Decision Tree:
            1       0.80      0.67      0.72       218
 
     accuracy                           0.74       420
-   macro avg       0.74      0.74      0.74       420
-weighted avg       0.75      0.74      0.74       420
+    macro avg       0.74      0.74     0.74       420
+    weighted avg    0.75      0.74     0.74       420
 
 Classification Report for Random Forest:
               precision    recall  f1-score   support
@@ -189,8 +189,8 @@ Classification Report for Random Forest:
            1       0.85      0.79      0.82       218
 
     accuracy                           0.82       420
-   macro avg       0.82      0.82      0.82       420
-weighted avg       0.82      0.82      0.82       420
+    macro avg       0.82      0.82     0.82       420
+    weighted avg    0.82      0.82     0.82       420
 
 Classification Report for SVM:
               precision    recall  f1-score   support
@@ -199,8 +199,8 @@ Classification Report for SVM:
            1       0.86      0.81      0.83       218
 
     accuracy                           0.83       420
-   macro avg       0.83      0.83      0.83       420
-weighted avg       0.84      0.83      0.83       420
+    macro avg       0.83      0.83     0.83       420
+    weighted avg    0.84      0.83     0.83       420
 
 Classification Report for Gradient Boosting:
               precision    recall  f1-score   support
@@ -209,8 +209,8 @@ Classification Report for Gradient Boosting:
            1       0.84      0.80      0.82       218
 
     accuracy                           0.81       420
-   macro avg       0.81      0.81      0.81       420
-weighted avg       0.82      0.81      0.81       420
+    macro avg       0.81      0.81     0.81       420
+    weighted avg    0.82      0.81     0.81       420
 
 Classification Report for k-NN:
               precision    recall  f1-score   support
@@ -219,8 +219,8 @@ Classification Report for k-NN:
            1       0.86      0.78      0.81       218
 
     accuracy                           0.82       420
-   macro avg       0.82      0.82      0.82       420
-weighted avg       0.82      0.82      0.82       420
+    macro avg       0.82      0.82     0.82       420
+    weighted avg    0.82      0.82     0.82       420
 
 
 ### 2. Confusion Matrix Visualization
