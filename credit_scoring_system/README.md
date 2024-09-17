@@ -156,3 +156,93 @@ A thorough understanding of the data structure, key features, potential quality 
 <img src="images/6_pairplot_numeric_target.png">
 
 <img src="images/7_pairplot_categorical_target.png">
+
+
+## Train Models and Visualization
+
+### 1. Classification report
+
+Classification Report for Logistic Regression:
+              precision    recall  f1-score   support
+
+           0       0.79      0.85      0.82       202
+           1       0.85      0.79      0.82       218
+
+    accuracy                           0.82       420
+   macro avg       0.82      0.82      0.82       420
+weighted avg       0.82      0.82      0.82       420
+
+Classification Report for Decision Tree:
+              precision    recall  f1-score   support
+
+           0       0.69      0.82      0.75       202
+           1       0.80      0.67      0.72       218
+
+    accuracy                           0.74       420
+   macro avg       0.74      0.74      0.74       420
+weighted avg       0.75      0.74      0.74       420
+
+Classification Report for Random Forest:
+              precision    recall  f1-score   support
+
+           0       0.79      0.85      0.82       202
+           1       0.85      0.79      0.82       218
+
+    accuracy                           0.82       420
+   macro avg       0.82      0.82      0.82       420
+weighted avg       0.82      0.82      0.82       420
+
+Classification Report for SVM:
+              precision    recall  f1-score   support
+
+           0       0.81      0.86      0.83       202
+           1       0.86      0.81      0.83       218
+
+    accuracy                           0.83       420
+   macro avg       0.83      0.83      0.83       420
+weighted avg       0.84      0.83      0.83       420
+
+Classification Report for Gradient Boosting:
+              precision    recall  f1-score   support
+
+           0       0.79      0.83      0.81       202
+           1       0.84      0.80      0.82       218
+
+    accuracy                           0.81       420
+   macro avg       0.81      0.81      0.81       420
+weighted avg       0.82      0.81      0.81       420
+
+Classification Report for k-NN:
+              precision    recall  f1-score   support
+
+           0       0.78      0.86      0.82       202
+           1       0.86      0.78      0.81       218
+
+    accuracy                           0.82       420
+   macro avg       0.82      0.82      0.82       420
+weighted avg       0.82      0.82      0.82       420
+
+
+### 2. Confusion Matrix Visualization
+
+<img src="images/8_confusion_matrix_Decision_Tree.png">
+
+<img src="images/8_confusion_matrix_Gradient_Boosting.png">
+
+<img src="images/8_confusion_matrix_Logistic_Regression.png">
+
+<img src="images/8_confusion_matrix_Random_Forest.png">
+
+<img src="images/8_confusion_matrix_SVM.png">
+
+<img src="images/8_confusion_matrix_k-NN.png">
+
+
+### 3. ROC Curve and AUC Curve
+
+<img src="images/9_roc_curve.png">
+
+
+### 4. Accuracy Comparison Bar Plot
+
+<img src="images/10_bar_polot_model_comparison.png">
