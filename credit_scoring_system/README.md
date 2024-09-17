@@ -225,13 +225,13 @@ weighted avg       0.82      0.82      0.82       420
 
 ### 2. Confusion Matrix Visualization
 
-<img src="images/8_confusion_matrix_Decision_Tree.png">
+<img src="images/8_confusion_matrix_Decision Tree.png">
 
-<img src="images/8_confusion_matrix_Gradient_Boosting.png">
+<img src="images/8_confusion_matrix_Gradient Boosting.png">
 
-<img src="images/8_confusion_matrix_Logistic_Regression.png">
+<img src="images/8_confusion_matrix_Logistic Regression.png">
 
-<img src="images/8_confusion_matrix_Random_Forest.png">
+<img src="images/8_confusion_matrix_Random Forest.png">
 
 <img src="images/8_confusion_matrix_SVM.png">
 
@@ -245,4 +245,4 @@ weighted avg       0.82      0.82      0.82       420
 
 ### 4. Accuracy Comparison Bar Plot
 
-<img src="images/10_bar_polot_model_comparison.png">
+<img src="images/10_bar_plot_model_comparison.png">
