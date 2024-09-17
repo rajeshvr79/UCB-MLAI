@@ -2,7 +2,7 @@
 
 <center>
     <center>
-        <img src = images/credit_scoring_proj.png width = 70%/>
+        <img src = images/credit_scoring_proj.png width = 100%/>
     </center>
 </center>
 
