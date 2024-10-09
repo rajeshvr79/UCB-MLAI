@@ -459,3 +459,8 @@ Random Forest was the best-performing model in terms of both accuracy and featur
 Imbalanced Data handling techniques like SMOTE were crucial to improving model performance for minority classes.
 Feature Importance insights can help inform lending decisions based on objective, data-driven criteria.
 This analysis demonstrates the power of machine learning in real-world applications like credit scoring, providing a scalable and accurate approach to risk assessment.
+
+
+## Summary of Deployment Process:
+Model Serialization: The trained Random Forest model was saved using joblib to make it accessible without retraining.
+Monitoring and Maintenance: Set up monitoring to track model performance and retrain the model when necessary.
