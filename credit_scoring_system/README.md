@@ -263,6 +263,7 @@ Classification Report for k-NN:
 
 <img src="images/cross_validation.png">
 
+
 ## Summary of Visualizations
 
 ### 1. Hyperparameter Tuning Heatmap: Shows the accuracy for each combination of n_estimators and max_depth for the Random Forest. This helps identify the optimal set of hyperparameters.
@@ -345,6 +346,7 @@ Classification Report for SVM:
 
 <img src="images/precision_recall_svm.png">
 
+
 ### Model Comparison
 Now that we have trained both the Random Forest and SVM models, we can compare their performance metrics:
 
@@ -355,3 +357,28 @@ Now that we have trained both the Random Forest and SVM models, we can compare t
 ### 3. Confusion Matrix: Compare the confusion matrices to see where each model makes errors.
 
 ### 4. Precision-Recall Curve: Especially useful for imbalanced datasets, this curve helps to identify which model has a better trade-off between precision and recall.
+
+
+
+## Hyperparameter Tuning for SVM Using Grid Search
+
+### 1. Performing Grid Search
+
+Fitting 5 folds for each of 16 candidates, totalling 80 fits
+Best parameters for SVM: {'svc__C': 1, 'svc__gamma': 0.1}
+
+### 2. Evaluating the Best SVM Model
+
+Best SVM Test Accuracy: 0.8143
+
+### 3. Confusion matrix for the tuned SVM
+
+<img src="images/confusion_matrix_tuned_svm.png">
+
+### 4. ROC Curve and AUC for the Tuned SVM
+
+<img src="images/roc_curve_tuned_svm.png">
+
+### 5. Precision-Recall Curve for the Tuned SVM
+
+<img src="images/precision_recall_tuned_svm.png">
