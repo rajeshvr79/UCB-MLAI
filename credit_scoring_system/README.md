@@ -462,5 +462,7 @@ This analysis demonstrates the power of machine learning in real-world applicati
 
 
 ## Summary of Deployment Process:
+
 Model Serialization: The trained Random Forest model was saved using joblib to make it accessible without retraining.
+
 Monitoring and Maintenance: Set up monitoring to track model performance and retrain the model when necessary.
