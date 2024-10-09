@@ -263,10 +263,6 @@ Classification Report for k-NN:
 
 <img src="images/cross_validation.png">
 
-### 3. Cross-Validation to Ensure Model Robustness
-
-<img src="images/cross_validation.png">
-
 ## Summary of Visualizations
 
 ### 1. Hyperparameter Tuning Heatmap: Shows the accuracy for each combination of n_estimators and max_depth for the Random Forest. This helps identify the optimal set of hyperparameters.
@@ -274,3 +270,88 @@ Classification Report for k-NN:
 ### 2. Feature Importance Bar Plot: Displays the relative importance of each feature in the final Random Forest model, providing insights into which features contribute most to the model's predictions.
 
 ### 3. Cross-Validation Histogram: Illustrates the distribution of accuracy scores across different folds in cross-validation, helping to assess the model's robustness.
+
+
+## Model Evaluation on Test Set with Visualizations
+
+### 1. Making Predictions on the Test Set
+
+Random Forest Test Accuracy: 0.7533
+
+### 2. Confusion Matrix
+
+<img src="images/confusion_matrix_rf.png">
+
+Classification Report for Random Forest:
+              precision    recall  f1-score   support
+
+           0       0.68      0.35      0.46        91
+           1       0.77      0.93      0.84       209
+
+    accuracy                           0.75       300
+    macro avg       0.72      0.64     0.65       300
+    weighted avg    0.74      0.75     0.73       300
+
+
+### 4. ROC Curve and AUC
+
+<img src="images/roc_curve_rf.png">
+
+### 5. Precision-Recall Curve
+
+<img src="images/precision_recall_rf.png">
+
+
+## Summary of Visualizations and Metrics
+
+### 1. Confusion Matrix: Shows the counts of true positive, true negative, false positive, and false negative predictions, giving insight into where the model is making errors.
+
+### 2. Classification Report: Provides precision, recall, F1-score, and support for each class, offering a detailed evaluation of model performance.
+
+### 3. ROC Curve and AUC: Visualizes the model's performance across various classification thresholds, with AUC summarizing the performance into a single metric.
+
+### 4. Precision-Recall Curve: Useful for understanding the balance between precision and recall, especially in cases of class imbalance.
+
+
+## Exploring Support Vector Machine (SVM) with Visualizations
+
+SVM Test Accuracy: 0.8190
+
+### 2. Confusion Matrix for SVM
+
+<img src="images/confusion_matrix_svm.png">
+
+### 3. Classification Report for SVM
+
+Classification Report for SVM:
+              precision    recall  f1-score   support
+
+           0       0.80      0.84      0.82       202
+           1       0.84      0.80      0.82       218
+
+    accuracy                           0.82       420
+    macro avg       0.82      0.82     0.82       420
+    weighted avg    0.82      0.82     0.82       420
+
+### 4. ROC Curve and AUC for SVM
+
+<img src="images/roc_curve_svm.png">
+
+### 5. Precision-Recall Curve for SVM
+
+<img src="images/precision_recall_svm.png">
+
+### 6. Precision-Recall Curve for SVM
+
+<img src="images/precision_recall_svm.png">
+
+### Model Comparison
+Now that we have trained both the Random Forest and SVM models, we can compare their performance metrics:
+
+### 1. Accuracy: Compare the test accuracy of both models.
+
+### 2. AUC Score: Check which model has a higher AUC, indicating better performance in distinguishing between classes.
+
+### 3. Confusion Matrix: Compare the confusion matrices to see where each model makes errors.
+
+### 4. Precision-Recall Curve: Especially useful for imbalanced datasets, this curve helps to identify which model has a better trade-off between precision and recall.
