@@ -267,7 +267,10 @@ Classification Report for k-NN:
 
 <img src="images/cross_validation.png">
 
-Summary of Visualizations
-Hyperparameter Tuning Heatmap: Shows the accuracy for each combination of n_estimators and max_depth for the Random Forest. This helps identify the optimal set of hyperparameters.
-Feature Importance Bar Plot: Displays the relative importance of each feature in the final Random Forest model, providing insights into which features contribute most to the model's predictions.
-Cross-Validation Histogram: Illustrates the distribution of accuracy scores across different folds in cross-validation, helping to assess the model's robustness.
+## Summary of Visualizations
+
+### 1. Hyperparameter Tuning Heatmap: Shows the accuracy for each combination of n_estimators and max_depth for the Random Forest. This helps identify the optimal set of hyperparameters.
+
+### 2. Feature Importance Bar Plot: Displays the relative importance of each feature in the final Random Forest model, providing insights into which features contribute most to the model's predictions.
+
+### 3. Cross-Validation Histogram: Illustrates the distribution of accuracy scores across different folds in cross-validation, helping to assess the model's robustness.
